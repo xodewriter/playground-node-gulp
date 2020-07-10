@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Materialize, Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+  <!-- Materialize Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" type="text/css" href="./css/style.css" />
+  <title>Playground</title>
+</head>
+
+<body>
+  <div class="container center-align card-image">
+    <header>
+      <div class="title">
+        <i class="logo material-icons">child_care</i>
+        <h1>PLAYGROUND</h1>
+      </div>
+
+
+      <h4 class="tagline">A place to <span>&lt;test&gt;</span> code</h4>
+    </header>
+    <p>Minimalistic testing environment that uses NodeJS, Gulp 4, Nodemon, and Browsersync.</p>
+    <br>
+    <table class="card">
+      <thead>
+        <tr>
+          <th>Command</th>
+          <th>Description</th>
+          <th>Notes</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>gulp</td>
+          <td>Opens browser using Browsersync</td>
+          <td>gulpfile.js configured to run on port 3000</td>
+        </tr>
+        <tr>
+          <td>npm run dev</td>
+          <td>Opens Express.js browser. Equivalent to running <strong>nodemon app.js</strong></td>
+          <td>app.js configured to run on port 5000</td>
+        </tr>
+
+      </tbody>
+    </table>
+
+    <br><br>
+
+    <a href="./test.html" class="waves-effect waves-light btn"><i class="material-icons left"></i>BEGIN</a>
+
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>

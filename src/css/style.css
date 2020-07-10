@@ -1,0 +1,81 @@
+/* -------------- Variables -------------- */
+
+:root {
+	--c-secondary: salmon;
+	--c-secondary--d1: rgb(245, 106, 90);
+	--c-primary--l1: #2bbbad; /* Material - teal */
+	--c-primary: #009688; /* Material - teal */
+	--c-primary--d1: #2bbbad; /* Material - teal */
+	--c-dark: #363635;
+}
+
+/* ---------------- Root ---------------- */
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+html {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	color: #3a3a3a;
+	line-height: 1.33;
+}
+
+/* ---------------- Base ---------------- */
+
+body {
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+	/* background: #f5f5f5; */
+	min-height: 100vh;
+}
+
+p {
+	color: var(--c-dark);
+}
+
+/* ------------- Components ------------- */
+
+.container {
+	background: white;
+}
+
+.title {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+hr {
+	border-top: 1px solid var(--clr-second);
+	border-bottom: none;
+	border-right: none;
+	border-left: none;
+}
+
+.title > h1 {
+	margin: 32px 0 16px 0;
+	font-size: 4.5rem;
+	color: var(--c-primary);
+}
+
+.logo {
+	color: var(--c-primary);
+	margin: 12px 12px 0 0;
+	font-size: 6.5rem;
+}
+
+.tagline {
+	margin: 0;
+	color: var(--c-secondary);
+	margin-bottom: 1.5rem;
+}
+
+.tagline > span {
+	color: var(--c-secondary--d1);
+}
