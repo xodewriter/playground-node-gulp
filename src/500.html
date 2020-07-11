@@ -1,18 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="./css/style.css" />
-    <title>500</title>
-  </head>
-  <body>
-    <h1>500 Internal Server Error</h1>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Materialize, Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+  <!-- Materialize Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" type="text/css" href="./css/style.css" />
+  <title>404</title>
+</head>
+
+<body>
+  <div class="container center-align card-image">
+    <header>
+      <div class="title">
+        <i class="logo material-icons">child_care</i>
+        <h1>Internal Server Error (500)</h1>
+      </div>
+
+
+      <h4 class="tagline">Sorry, there was a server error.</h4>
+    </header>
+    <br>
+
     <p>
-      Sorry, check with the site admin for error. Something has gone wrong on
+      Check with the site admin for error. Something has gone wrong on
       the web site's server but the server can not be more specific on what the
       exact problem is.
     </p>
-    <div><a href="javascript:history.back()">go back</a></div>
-  </body>
+    <br><br>
+
+    <a href="javascript:history.back()" class="waves-effect waves-light btn"><i
+        class="material-icons left"></i>BEGIN</a>
+
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+
 </html>
