@@ -19,7 +19,7 @@ function watchTask() {
 			port: 3000,
 		},
 	});
-	watch([filePaths.html, filePaths.css, filePaths.html]).on(
+	watch([filePaths.html, filePaths.css, filePaths.js]).on(
 		'change',
 		browserSync.reload
 	);
